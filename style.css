@@ -1,0 +1,52 @@
+body{
+    text-align: justify;/*ajusta os textos no canto*/
+    text-indent: 20px;/*espaço entre a linha e o começo do paragrafo*/
+    
+}
+
+#cabecalho{
+    background-image: url(_imagens/glass-logo-peq.jpg);
+   
+    border-bottom: 2px solid black;
+}
+
+nav{
+    display: block;
+}
+
+ul{
+    list-style-type: none;
+    position: absolute;/*permite a movimentção dentro do site,posição relativa;vai permitir a movimentção somente dentro do bloco*/
+    top: 0px;
+    left: 520px;
+    
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    text-transform: uppercase;
+    background-color: rgba(128, 128, 128, 0.315);
+}
+
+#areaprincipal{
+    display: block;
+    width: 800px;
+    float: left;
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+
+#lateral{
+    display: block;
+    width: 400px;
+    float: right;
+}
+
+#rodape{
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
